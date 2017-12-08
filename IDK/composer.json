@@ -1,0 +1,12 @@
+{
+    "name": "userguest/htdocs",
+    "authors": [
+        {
+            "name": "Moscu George",
+            "email": "george@nextlogic.ro"
+        }
+    ],
+    "require": {
+        "paypal/rest-api-sdk-php": "*"
+    }
+}
